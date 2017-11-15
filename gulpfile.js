@@ -22,6 +22,9 @@ gulp.task('copy', function() {
   gulp.src(['css/**'])
     .pipe(gulp.dest('public/css'))
 
+  gulp.src(['js/**'])
+  .pipe(gulp.dest('public/js'))
+
   gulp.src(['img/**'])
   .pipe(gulp.dest('public/img'))
 
