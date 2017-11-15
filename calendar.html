@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="vendor/fullcalendar.min.css">
     <link href="css/main.css" rel="stylesheet">
 
   </head>
@@ -41,7 +42,7 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home</a>
             </li>
-            <li class="nav-item px-lg-4 active">
+            <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
             </li>
             <li class="nav-item px-lg-4">
@@ -53,7 +54,7 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="nndym.html">NNDYM</a>
             </li>
-            <li class="nav-item px-lg-4">
+            <li class="nav-item px-lg-4 active">
               <a class="nav-link text-uppercase text-expanded" href="calendar.html">Calendar</a>
             </li>
             <li class="nav-item px-lg-4">
@@ -65,48 +66,9 @@
     </nav>
 
     <div class="container">
-
       <div class="bg-faded my-4">
-        <h2 class="mt-4">About</h2>
-        <div class="row">
-          <div class="col-lg-6">
-            <img class="img-fluid mb-4 mb-lg-0" src="img/slide-2.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-faded p-4 my-4">
-        <h2 class="mt-4">Murtis</h2>
-        <div class="row">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">NarNarayan Dev</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Swaminarayan Bhagwan</h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Radha Krishna Dev</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2 class="mt-4">Calendar</h2>
+          <div id="calendar"></div>
       </div>
 
     </div>
@@ -131,6 +93,10 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/moment.js"></script>
+    <script src="vendor/fullcalendar.min.js"></script>
+    <script src='vendor/gcal.js'></script>
+    <script src="js/calendar.js"></script>
 
   </body>
 

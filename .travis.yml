@@ -1,17 +1,9 @@
-# language: node_js
-# node_js:
-# - '6.0'
-# script:
-# - echo "Deploying!"
-# install:
-# - npm install -g firebase-tools
-# after_success:
-# - firebase deploy --token $FIREBASE_TOKEN
-# env:
-#   global:
-#     secure: 
-
-deploy:
-  provider: firebase
-  token:
-    secure: lvfpxfgHvfQOZdTM7OFtXFMsjl66+tS2sBXrmu1VedQErtXnLtgTUNepPnebawHN8mKNn/8n/b07aGQotywFQxZpJqAXPKILb5K/7NnUmzSxkkhVTz663iwWd4C184wAceMthbiEq4W+Vx0m85AuLcWRE/dOwMrnhenTZGEBvA/wAtDO3TWCK1Cs3q15yIwNMGypVVgRX/tvYsSjMKIkzKwLYd0MiB873zQxB7OnyJliKAHRKwQ+BS6ZVxgCJGrEKN3T0ndOo+iD/u2a0v65h68YufKLlS1ZoCRxwP3W9O0HTJrFdLC+nnhc79DBXZ75f6qTPvW8k0A8Vl7i1QQ4Fg4Q4+aCGfaVzICSAHfAK61xJv9KKW14JA/MQd5kwymFRhs8R+000mU5c1UTWLdatw2CFix8daBrQEHjVPWJWQnzuqfWjQZLzivtBAKqHkdP2DjR3h8v7CXvdoHrnfR4LZKSLFMP3i8TnjGxzgSq014G5FJvtHgEk4+q4+sHRwdqgYVMH5NfQSJkUsTL/Vukdu+wixd2+PcAfPHnSVUyiPCFYFmyVV4eMx2c6hxTThPMvhmjOEKK1265e2c2sOsf6Rsj3bllIxXMEd+z7Y7mdfGgP1lNmVnAS3+rT34U2tRYwhXcfPsIR0ricEaQOFBkkw4UEarFi/P9bapPJfYLZB4=
+language: node_js
+node_js:
+- '6.0'
+script:
+- echo "Deploying!"
+install:
+- npm install -g firebase-tools
+after_success:
+- firebase deploy --token $FIREBASE_TOKEN

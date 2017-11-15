@@ -12,48 +12,51 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
   </head>
 
   <body>
-
-    <div class="tagline-upper text-center text-heading text-shadow text-white d-none d-lg-block"><img class="banner-top" src="http://www.swaminarayan.info/images/banner_02.jpg" alt="top-banner"></div>
+    <div class="tagline-dates scroll-left text-center text-white">
+      <p><b>ANNOUNCEMENT:</b> Kartik Vad 12 Wednesday 15th November 2017</p>
+    </div>
+    <div class="tagline-upper text-center text-heading text-shadow text-white d-none d-lg-block">
+      <img class="banner-top" src="http://www.swaminarayan.info/images/banners//banner.png" alt="top-banner">
+    </div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-faded py-lg-4">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">ISSO - New York</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html">ISSO - New York</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item px-lg-4 active">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">Events</a>
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">Daily Darshan</a>
+              <a class="nav-link text-uppercase text-expanded" href="events.html">Events</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">ISSO</a>
+              <a class="nav-link text-uppercase text-expanded" href="daily-darshan.html">Daily Darshan</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">NNDYM</a>
+              <a class="nav-link text-uppercase text-expanded" href="nndym.html">NNDYM</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">Calendar</a>
+              <a class="nav-link text-uppercase text-expanded" href="calendar.html">Calendar</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact Us</a>
@@ -65,7 +68,7 @@
 
     <div class="container">
 
-      <div class="bg-faded p-4 my-4">
+      <div class="bg-faded my-4">
         <!-- Image Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -106,33 +109,110 @@
           </a>
         </div>
       </div>
-      <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0"><strong>Upcoming Events</strong></h2>
-        <hr class="divider">
+  </div>
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="mt-4">Mandir Opening Times</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Weekdays</th>
+                            <th></th>
+                            <th>Weekends</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Morning Darshan</td>
+                            <td>From 7am - 11am</td>
+                            <td>Morning Darshan</td>
+                            <td>From 7am - 11am</td>
+                        </tr>
+                        <tr>
+                            <td>Morning Aarti</td>
+                            <td>9am</td>
+                            <td>Morning Aarti</td>
+                            <td>9am</td>
+                        </tr>
+                        <tr>
+                            <td>Morning Sabha</td>
+                            <td>9am - 10:30am</td>
+                            <td>Morning Sabha</td>
+                            <td>9am - 10:30am</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Evening Darshan</td>
+                            <td>From 4pm</td>
+                            <td>Evening Darshan</td>
+                            <td>From 4pm</td>
+                        </tr>
+                        <tr>
+                            <td>Evening Aarti</td>
+                            <td>7pm</td>
+                            <td>Evening Aarti</td>
+                            <td>6pm</td>
+                        </tr>
+                        <tr>
+                            <td>Evening Sabha</td>
+                            <td>7pm - 8:30pm</td>
+                            <td>Evening Sabha</td>
+                            <td>6pm - 7:30pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="mt-4">Contact Us</h2>
+          <address>
+            <strong>ISSO Temple New York</strong>
+            <br>3481 Melrose Place
+            <br>Beverly Hills, CA 90210
+            <br>
+          </address>
+          <address>
+            <abbr title="Phone">P:</abbr>
+            (123) 456-7890
+            <br>
+            <abbr title="Email">E:</abbr>
+            <a href="mailto:#">name@example.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+      <!-- /.row -->
+
+    <div class="container">
+      <div class="bg-faded my-4">
+        <h2 class="mt-4">News</h2>
         <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
       </div>
-
-      <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0"><strong>Announcements</strong></h2>
-        <hr class="divider">
-        <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
-      </div>
-
     </div>
     <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
       <div class="container">
-        <p>|| <a href="">Swaminarayan Faith</a> | <a href="">Acharyas</a>  | <a href="">Holy Saints</a>  | <a href="">Scriptures</a>  | <a href="">Temples</a>  | <a href="">Inspiring Articles</a>  | <a href="">Festivals</a>  ||</p>
-        <p class="m-0">Copyright &copy; 2017 Swaminarayan.info || The Original || Shree Swaminarayan Sampraday || Under Shree NarNarayan Dev Gad</p>
+        <h3>Follow us</h3>
+                <div class="text-center center-block">
+                      <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook fa-3x social"></i></a>
+                      <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter fa-3x social"></i></a>
+                      <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus fa-3x social"></i></a>
+                      <a href="https://instagram.com"><i id="social-ins" class="fa fa-instagram fa-3x social"></i></a>
+        </div>
+            <hr>
+        <p class="m-0">Copyright &copy; 2017 Swaminarayan.info <br> The Original || Shree Swaminarayan Sampraday || Under Shree NarNarayan Dev Gad</p>
       </div>
     </footer>
 
