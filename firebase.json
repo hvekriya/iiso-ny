@@ -1,0 +1,13 @@
+{
+    "projects": {
+        "default":"isso-ny"
+    },
+    "hosting": {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}
